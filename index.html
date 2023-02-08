@@ -22,11 +22,47 @@
             <li class="nav-link about"><a href="#">About</a></li>
             <li class="nav-link projects"><a href="#"><i class="fa-solid fa-gears"></i>Projects</a></li>
             <li class="nav-link skills"><a href="#">Skills</a></li>
-            <li class="nav-link contact"><a href="#">Contact Me</a></li>
-            <li class="nav-link resume"><a target="_blank" onclick="window.open(`https://drive.google.com/u/0/uc?id=1WSBIQkMN-qUIUQN3S_E7WP0IYmIyiLuH&export=download`)" download href="https://drive.google.com/file/d/1WSBIQkMN-qUIUQN3S_E7WP0IYmIyiLuH/view?usp=share_link">Resume</a></li>
+            <li class="nav-link contact"><a href="#contact">Contact Me</a></li>
+            <!-- onclick="window.open(`https://drive.google.com/u/0/uc?id=1WSBIQkMN-qUIUQN3S_E7WP0IYmIyiLuH&export=download`)"  for resume download -->
+            <li class="nav-link resume"><a target="_blank"  download href="https://drive.google.com/file/d/1WSBIQkMN-qUIUQN3S_E7WP0IYmIyiLuH/view?usp=share_link">Resume</a></li>
             
         </ul>
     </nav>
+
+    <div id="home">a</div>
+
+
+    <div id="contact">
+        <p id="heading">Contact me</p>
+        <div id="contact-mail">
+           <img src="/images/contact_email.jpg" alt="Man standing">
+            <form action="">
+                <input id="form-email" placeholder="Enter email address" type="email">
+                <textarea name="form-message" id="form-message" cols="30" rows="10" placeholder="Enter message..."></textarea>
+                <input id="form-submit" type="submit" value="Send Message">
+            </form>
+        </div>
+        <div id="contact-socials">
+            <div id="contact-socials-container">
+                <div id="contact-not-git">
+                    <p>My social media links:</p>
+                    <div id="contact-not-git-container">
+                        <a id="contact-linkedin" target="_blank" href="https://www.linkedin.com/in/anas-shaikh-web-developer/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a id="contact-phone"  href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a id="contact-email" href="#contact-mail"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div id="contact-git">
+                    <p>More projects I've worked on:</p>
+                    <div id="contact-git-container">
+                        <a target="_blank" id="contact-github" href="https://github.com/zoneAnaS"><i class="fa-brands fa-github"></i></a>
+                        <p>@<a target="_blank" href="https://github.com/zoneAnaS">zoneAnaS</a> on github</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
   
 </body>
 <script src="/scripts/nav.js"></script>

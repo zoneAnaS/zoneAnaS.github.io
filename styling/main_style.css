@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 }
 #nav-menu{
@@ -60,7 +61,108 @@
     left: 0;
 }
 
-@media (max-width: 990px) {
+/* home section  */
+#home{
+    padding-top:83px;
+}
+
+
+
+
+
+
+
+/* contact section */
+#contact{
+    width: 100%;
+    
+}
+#contact-mail{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#contact-mail>*{
+    width: 45%;
+}
+#contact-mail>img{
+    align-self: center;
+    height:max-content;
+}
+#heading{
+    color: #E84949;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+#contact-mail>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact-mail>form>input{
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 43px;
+    padding: 12px 19px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#contact-mail>form>#form-message{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 43px;
+    padding: 12px 19px;
+    height: 110px;
+    resize: none;
+}
+#contact-mail>form>#form-submit{
+    margin-left: auto;
+    margin-right: auto;
+    color: #FCFCFC;
+    background-color: #343D68;
+    padding:12px, 24px, 12px, 24px;
+    width: max-content;
+    cursor: pointer;
+}
+
+#contact-socials{
+    height: 150px;
+    background-color: #343d68;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+#contact-socials a{
+color: white;
+}
+#contact-socials-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#contact-socials-container p{
+    margin-bottom: 20px;
+}
+#contact-not-git-container{
+    display: flex;
+}
+#contact-not-git-container>*{
+    margin-right: 20px;
+}
+#contact-git-container{
+    display: flex;
+}
+#contact-github{
+    margin-right: 20px;
+}
+
+@media (max-width: 990px){
    
     #nav-bar{
         display: block;
@@ -88,4 +190,29 @@
         background-color:#343D68;
         color: #E84949;
     }
+    
+
+
+}
+@media (max-width:600px) {
+    .logo>img{
+        height: 40px;
+    }
+    #contact-mail{
+        flex-direction: column;
+    } 
+    #contact-mail>*{
+        width: 100%;
+    }
+    #contact-socials-container{
+        
+       flex-direction: column;
+    } 
+    #contact-socials{
+        height: 300px;
+    }
+    #contact-not-git{
+        margin-bottom: 70px;
+    }
+     
 }
