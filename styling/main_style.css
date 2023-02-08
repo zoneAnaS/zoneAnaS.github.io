@@ -42,6 +42,9 @@
     font-weight: bold;
     color: #343d68;
 }
+.logo>img{
+    height: 50px;
+}
 #nav-btn{
     
     display: none;
