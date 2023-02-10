@@ -7,9 +7,9 @@
     font-family: 'Roboto', sans-serif;
     
 }
-body{
+/* body{
     background-color: rgb(234, 234, 234);
-}
+} */
 .primary-btn{
     color: #FCFCFC;
     background-color: #E84949;
@@ -431,7 +431,37 @@ text-decoration: none;
     padding: 20px 0;
     color: #818080;
 }
+
+/* git stats */
+#git-stats{
+    width: 80%;
+    margin: auto;
+    
+}
+#git-stats>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px 0;
+    flex-wrap: wrap;
+}
+.git-stat-div{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.git-stat-div>img{
+    width: 100%;
+    height: 100%;
+    
+}
+.js-calendar-graph-svg{
+    height:fit-content;
+}
 @media (max-width: 990px){
+    .git-stat-div{
+        width: 100%;}
     #resume-link-1:hover{
         border-radius: 0;
         background-color:#E84949;
@@ -490,6 +520,8 @@ text-decoration: none;
     h1{
         font-size: 25px;
     }
+    #user-detail-name{
+        font-size: 25px;}
     #image-dec-balls{
         width:40px;
         gap: 10px;
