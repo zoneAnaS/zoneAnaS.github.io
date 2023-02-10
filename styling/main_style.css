@@ -95,12 +95,10 @@ body{
 }
 
 /* home section  */
-#about{
+#home{
     width: 100%;
     padding-top:150px;
 }
-
-/* home section  */
 #home-container{
     width: 80%;
     margin: auto;
@@ -132,6 +130,9 @@ body{
     border-radius: 50%;
     height: 10px;
     width: 10px;
+}
+#resume-button-2{
+    margin: 20px 0;
 }
 .top-dec-balls{
     animation: topball 3s infinite;
@@ -181,14 +182,6 @@ body{
 #details>p{
     color: #343D68;
     font-size: 30px;
-}
-#details>#user-detail-intro{
-    font-size: 20px;
-    color: #818080;
-    margin:20px 0;
-}
-#user-detail-name{
-    color: black;
 }
 h1{
     color: #343D68;
@@ -418,6 +411,26 @@ text-decoration: none;
 .project-links a{
     color: #343d68;
 }
+
+
+/* about section */
+#about{
+    margin: 10px 0;
+    text-align: justify;
+}
+#about-container{
+    width: 80%;
+    margin: auto;
+}
+#user-detail-name{
+    font-size: 30px;
+    color: #343d68;
+    font-weight: bold;
+}
+#user-detail-intro{
+    padding: 20px 0;
+    color: #818080;
+}
 @media (max-width: 990px){
     #resume-link-1:hover{
         border-radius: 0;
@@ -473,9 +486,6 @@ text-decoration: none;
 @media (max-width:600px) {
     #details>p{
         font-size: 18px;
-    }
-    #details>#user-detail-intro{
-        font-size: 15px;
     }
     h1{
         font-size: 25px;
