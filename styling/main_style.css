@@ -12,12 +12,17 @@ body{
 }
 .primary-btn{
     color: #FCFCFC;
-    background-color: #343D68;
+    background-color: #E84949;
     font-size: 18px;
-    padding:5px 15px;
+    padding: 10px 15px;
     border: none;
     width: max-content;
     cursor: pointer;
+    transition: 0.3s;
+}
+.primary-btn:hover{
+    background-color: #343D68;
+    
 }
 #nav-menu{
     position: fixed;
@@ -47,12 +52,23 @@ body{
     text-decoration: none;
     color: #000; 
 }
+#resume-link-1{
+    border-radius: 0;
+    color: #FCFCFC;
+    background-color:#E84949;
+    transition: 0.3s;
+}
+#resume-link-1:hover{
+    border-radius: 4px;
+    color: #FCFCFC;
+    background-color:#343D68;
+}
 .nav-link>a:hover{
     background-color: rgb(209, 209, 209);
 }
-.projects>a{
+/* .projects>a{
     color: #E84949;
-}
+} */
 .logo{
     font-size: 30px;
     font-weight: bold;
@@ -116,6 +132,34 @@ body{
     border-radius: 50%;
     height: 10px;
     width: 10px;
+}
+.top-dec-balls{
+    animation: topball 3s infinite;
+}
+@keyframes topball {
+    0%{
+    top: 20px;
+    }
+    50%{
+        top: -10px;
+    }
+    100%{
+    top: 20px;
+    }
+}
+.bottom-dec-balls{
+    animation: botball 3s 0.5s infinite;
+}
+@keyframes botball {
+    0%{
+    bottom: -10px;
+    }
+    50%{
+        bottom: 20px;
+    }
+    100%{
+    bottom: -10px;
+    }
 }
 .top-dec-balls>.image-dec-ball{
     background-color: #343D68;}
@@ -375,6 +419,10 @@ text-decoration: none;
     color: #343d68;
 }
 @media (max-width: 990px){
+    #resume-link-1:hover{
+        border-radius: 0;
+        background-color:#E84949;
+    }
     #home-container{
         flex-direction: column-reverse;
     }
@@ -440,6 +488,7 @@ text-decoration: none;
         height: 5px;
         width: 5px;
     }
+
     .logo>img{
         height: 40px;
     }
