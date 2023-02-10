@@ -7,10 +7,15 @@
     font-family: 'Roboto', sans-serif;
     
 }
+body{
+    background-color: rgb(234, 234, 234);
+}
 .primary-btn{
     color: #FCFCFC;
     background-color: #343D68;
-    padding:12px, 24px, 12px, 24px;
+    font-size: 18px;
+    padding:5px 15px;
+    border: none;
     width: max-content;
     cursor: pointer;
 }
@@ -75,10 +80,76 @@
 
 /* home section  */
 #home{
-    padding-top:83px;
+    width: 100%;
+    padding-top:150px;
 }
 
+/* home section  */
+#home-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#home-container>*{
+    width:45%;
+}
+#professional-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image-dec-balls{
+    position: absolute;
+    display:flex;
+    flex-wrap: wrap;
+    width:60px;
+    gap: 10px;
+}
+.bottom-dec-balls{
+    right: -30px;
+    bottom: -10px;
+}
+.image-dec-ball{
+    background-color: #E84949;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.top-dec-balls>.image-dec-ball{
+    background-color: #343D68;}
+.top-dec-balls{
+    left: -30px;
+    top: 20px;
+}
+#img-cont{
+    position: relative;
+    width: 50%;
+}
+#professional-img{
+    width: 100%;
+}
+#details{
+    padding: 30px 10px;
+}
 
+#details>p{
+    color: #343D68;
+    font-size: 30px;
+}
+#details>#user-detail-intro{
+    font-size: 20px;
+    color: #818080;
+    margin:20px 0;
+}
+#user-detail-name{
+    color: black;
+}
+h1{
+    color: #343D68;
+    font-size: 35px;
+}
 
 
 
@@ -304,7 +375,12 @@ text-decoration: none;
     color: #343d68;
 }
 @media (max-width: 990px){
-   
+    #home-container{
+        flex-direction: column-reverse;
+    }
+    #home-container>*{
+        width: 100%;
+    }
     #nav-bar{
         display: block;
     }
@@ -347,6 +423,15 @@ text-decoration: none;
 
 }
 @media (max-width:600px) {
+    #details>p{
+        font-size: 18px;
+    }
+    #details>#user-detail-intro{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
     .logo>img{
         height: 40px;
     }
