@@ -432,6 +432,14 @@ text-decoration: none;
     h1{
         font-size: 25px;
     }
+    #image-dec-balls{
+        width:40px;
+        gap: 10px;
+    }
+    .image-dec-ball{
+        height: 5px;
+        width: 5px;
+    }
     .logo>img{
         height: 40px;
     }
