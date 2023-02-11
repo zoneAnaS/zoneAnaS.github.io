@@ -74,7 +74,7 @@ body{
     font-weight: bold;
     color: #343d68;
 }
-.logo>img{
+.logo img{
     height: 55px;
     mix-blend-mode: multiply;
 }
@@ -400,6 +400,9 @@ text-decoration: none;
     border-radius: 5px 5px 0 0;
     width: 100%;
 }
+.project-description{
+    color: #818080;
+}
 .project-description,.project-tech-stack{
     font-size: 14px;
 }
@@ -533,7 +536,7 @@ text-decoration: none;
         width: 5px;
     }
 
-    .logo>img{
+    .logo img{
         height: 40px;
     }
     #contact-mail{
