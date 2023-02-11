@@ -461,7 +461,7 @@ text-decoration: none;
 }
 @media (max-width: 990px){
     .git-stat-div{
-        width: 100%;}
+        width: 60%;}
     #resume-link-1:hover{
         border-radius: 0;
         background-color:#E84949;
@@ -514,6 +514,8 @@ text-decoration: none;
 
 }
 @media (max-width:600px) {
+    .git-stat-div{
+        width: 100%;}
     #details>p{
         font-size: 18px;
     }
