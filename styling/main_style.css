@@ -28,13 +28,17 @@ body{
     position: fixed;
     z-index: 20;
     height: 83px;
-    background-color:#c2caf1;
+    background-color:#ffffff;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 15px 30px -25px;
+
+
+
+
 }
 #nav-menu>ul{
     display: flex;
