@@ -8,7 +8,7 @@
     
 }
 body{
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(255, 255, 255);
 }
 .primary-btn{
     color: #FCFCFC;
@@ -28,7 +28,7 @@ body{
     position: fixed;
     z-index: 20;
     height: 83px;
-    background-color: #FCFCFC;
+    background-color:#c2caf1;
     width: 100%;
     display: flex;
     align-items: center;
@@ -95,9 +95,14 @@ body{
 }
 
 /* home section  */
+
+
 #home{
     width: 100%;
     padding-top:150px;
+}
+#wave{
+    width: 32px;
 }
 #home-container{
     width: 80%;
@@ -463,6 +468,7 @@ text-decoration: none;
     height:fit-content;
 }
 @media (max-width: 1071px){
+    
     .git-stat-div{
         width: 60%;}
     #resume-link-1:hover{
