@@ -471,7 +471,7 @@ text-decoration: none;
 .js-calendar-graph-svg{
     height:fit-content;
 }
-@media (max-width: 1071px){
+@media (max-width: 950px){
     
     .git-stat-div{
         width: 60%;}
