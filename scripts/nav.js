@@ -20,3 +20,14 @@ nav_links.forEach((el)=>{
         nav_bar_icon.classList.remove("fa-xmark");
     })
 })
+
+
+document.querySelector("#resume-button-1").addEventListener("click",()=>{
+    window.location.href="https://drive.google.com/u/0/uc?id=1DjQLqOVYTK_GJf1aAnbLDK_U2T63aqt_&export=download";
+    window.open("https://drive.google.com/file/d/1DjQLqOVYTK_GJf1aAnbLDK_U2T63aqt_/view?usp=share_link","_blank") ;
+})
+
+document.querySelector("#resume-button-2").addEventListener("click",()=>{
+    window.location.href="https://drive.google.com/u/0/uc?id=1DjQLqOVYTK_GJf1aAnbLDK_U2T63aqt_&export=download";
+    window.open("https://drive.google.com/file/d/1DjQLqOVYTK_GJf1aAnbLDK_U2T63aqt_/view?usp=share_link","_blank") ;
+})
