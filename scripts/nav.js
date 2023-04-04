@@ -24,8 +24,8 @@ nav_links.forEach((el)=>{
 
 document.querySelector("#resume-button-1").addEventListener("click",()=>{
     // console.log("1")
-    window.location.href="https://drive.google.com/u/0/uc?id=1WSBIQkMN-qUIUQN3S_E7WP0IYmIyiLuH&export=download";
-    // window.open("https://drive.google.com/file/d/1WSBIQkMN-qUIUQN3S_E7WP0IYmIyiLuH/view","_blank") ;
+    // window.location.href="https://drive.google.com/u/0/uc?id=1WSBIQkMN-qUIUQN3S_E7WP0IYmIyiLuH&export=download";
+    window.open("https://drive.google.com/file/d/1WSBIQkMN-qUIUQN3S_E7WP0IYmIyiLuH/view","_blank") ;
 })
 
 document.querySelector("#resume-button-2").addEventListener("click",()=>{
