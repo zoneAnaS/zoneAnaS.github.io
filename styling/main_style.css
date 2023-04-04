@@ -56,13 +56,13 @@ body{
     text-decoration: none;
     color: #000; 
 }
-#resume-link-1{
+#resume-button-1{
     border-radius: 0;
     color: #FCFCFC;
     background-color:#E84949;
     transition: 0.3s;
 }
-#resume-link-1:hover{
+#resume-button-1:hover{
     border-radius: 4px;
     color: #FCFCFC;
     background-color:#343D68;
