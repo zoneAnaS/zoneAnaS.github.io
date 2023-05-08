@@ -537,7 +537,7 @@ text-decoration: none;
 }
 @media (max-width:600px) {
     #projects-container{
-        width: 60%;
+        width: 80%;
         grid-template-columns: repeat(1,1fr);
     }
     .git-stat-div{
