@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior:unset;
+    scroll-behavior:smooth;
     font-family: 'Roboto', sans-serif;
     
 }
@@ -223,7 +223,7 @@ h1{
 #heading{
     color: #E84949;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     padding: 30px 0 20px 0;
 }
 #contact-mail>form{
@@ -359,14 +359,18 @@ text-decoration: none;
     padding-bottom: 50px;
 }
 #projects-container{
-    width: 80%;
-    display: flex;
+    /* width: 80%; */
+    width: 60%;
+    /* display: flex; */
     box-sizing: content-box;
     margin: auto ;
-    padding-bottom: 20px;
-    overflow-x: scroll;
-    column-gap: 30px;
-    scroll-snap-type: x mandatory;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px 20px;
+    /* padding-bottom: 20px; */
+    /* overflow-x: scroll; */
+    /* column-gap: 30px; */
+    /* scroll-snap-type: x mandatory; */
 }
 #projects-container::-webkit-scrollbar {
     height: 12px;
@@ -473,8 +477,11 @@ text-decoration: none;
 .js-calendar-graph-svg{
     height:fit-content;
 }
-@media (max-width: 950px){
-    
+@media (max-width: 1000px){
+    #projects-container{
+        width: 80%;
+        
+    }
     .git-stat-div{
         width: 60%;}
     #resume-link-1:hover{
@@ -529,6 +536,10 @@ text-decoration: none;
 
 }
 @media (max-width:600px) {
+    #projects-container{
+        width: 60%;
+        grid-template-columns: repeat(1,1fr);
+    }
     .git-stat-div{
         width: 100%;}
     #details>p{
